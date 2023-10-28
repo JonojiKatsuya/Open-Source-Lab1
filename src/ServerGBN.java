@@ -9,5 +9,6 @@ public class ServerGBN extends GBN{
         ServerGBN gbnServer = new ServerGBN(50,5,2,"server");
         gbnServer.setDestPort(40);
         gbnServer.receiveData("D:\\receiveTXT.txt",50);
+        gbnServer.sendData("D:\\sendTXT.txt",50);
     }
 }
