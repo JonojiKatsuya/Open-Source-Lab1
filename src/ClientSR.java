@@ -6,6 +6,9 @@ public class ClientSR extends SR{
     }
 
     public static void main(String[] args) throws Exception {
+
+        //C4分支修改_02
+
         ClientSR srClient = new ClientSR(40,5,3,"client");
         srClient.setDestPort(50);
         srClient.sendData("D:\\sendTXT.txt",50);
