@@ -6,6 +6,9 @@ public class ClientGBN extends GBN{
     }
 
     public static void main(String[] args) throws Exception {
+
+        //C4分支修改_03
+
         ClientGBN gbnClient = new ClientGBN(40,5,2,"client");
         gbnClient.setDestPort(50);
         gbnClient.sendData("D:\\sendTXT.txt",50);

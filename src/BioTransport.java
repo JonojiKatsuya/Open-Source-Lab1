@@ -6,6 +6,8 @@ public class BioTransport {
 
     public static void main(String[] args) throws IOException {
 
+        //C4分支修改_01
+
         ClientGBN gbnClient = new ClientGBN(30,5,2,"client");
         gbnClient.setDestPort(60);
         ServerGBN gbnServer = new ServerGBN(60,5,2,"server");
