@@ -11,6 +11,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SR {
+
+    //分支B2修改_01
+
     int flag = 1;       //模拟丢失ACK时用到
     protected int WINDOW_SIZE;    //窗口长度
     protected int TIMEOUT;    //超时时间，单位为秒

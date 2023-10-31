@@ -1,6 +1,9 @@
 import java.io.IOException;
 
 public class ServerSR extends SR{
+
+    //分支B2修改_02
+
     public ServerSR(int RECEIVE_PORT, int WINDOW_SIZE, int TIMEOUT, String name) throws IOException {
         super(RECEIVE_PORT, WINDOW_SIZE, TIMEOUT, name);
     }
