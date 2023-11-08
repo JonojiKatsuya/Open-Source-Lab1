@@ -278,5 +278,6 @@ public class GBN {
         System.arraycopy(data2, 0, data3, data1.length, data2.length);
         return data3;
     }
+    // 写的很好
 }
 
